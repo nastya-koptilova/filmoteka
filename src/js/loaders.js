@@ -1,22 +1,22 @@
 // Preloader //
 
-const preloaderEl = document.querySelector('.preloader');
+// const preloaderEl = document.querySelector('.preloader');
 
-if (preloaderEl) {
-  window.addEventListener('load', hidePreloader);
+// if (preloaderEl) {
+//   window.addEventListener('load', hidePreloader);
 
-  function hidePreloader() {
-    document.body.style.overflow = 'hidden';
+//   function hidePreloader() {
+//     document.body.style.overflow = 'hidden';
 
-    setTimeout(() => {
-      preloaderEl.classList.add('preloader--hide');
-      document.body.style.overflow = 'auto';
-    }, 2500);
-    setTimeout(() => {
-      preloaderEl.remove();
-    }, 3500);
-  }
-}
+//     setTimeout(() => {
+//       preloaderEl.classList.add('preloader--hide');
+//       document.body.style.overflow = 'auto';
+//     }, 2500);
+//     setTimeout(() => {
+//       preloaderEl.remove();
+//     }, 3500);
+//   }
+// }
 // Loader-spinner //
 
 function showLoader() {
